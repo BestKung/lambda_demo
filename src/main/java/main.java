@@ -13,10 +13,8 @@ public class main {
 
         //lambda
         LambInterface str2 = (name,  other) ->"hi "+name + " "+other;
-ีห
+ี
         System.out.println(str.lanbTest("best" , "เอง"));
-
-
     }
 
 }
