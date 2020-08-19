@@ -3,9 +3,7 @@ package main.java;
 public class main {
 
     public static void main(String[] args) {
-
-
-
+        //ใช้แบบธรรมดา
         LambInterface str = new LambInterface() {
             @Override
             public String lanbTest(String name) {
@@ -13,7 +11,7 @@ public class main {
             }
         };
 
-
+        //lambda
         LambInterface str2 = name ->"hi "+name;
 
         System.out.println(str.lanbTest("best"));
