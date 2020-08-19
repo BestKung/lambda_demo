@@ -6,15 +6,15 @@ public class main {
         //ใช้แบบธรรมดา
         LambInterface str = new LambInterface() {
             @Override
-            public String lanbTest(String name) {
-                return "hi "+name;
+            public String lanbTest(String name, String other) {
+                return "hi "+name + " "+other;
             }
         };
 
         //lambda
-        LambInterface str2 = name ->"hi "+name;
-
-        System.out.println(str.lanbTest("best"));
+        LambInterface str2 = (name,  other) ->"hi "+name + " "+other;
+ีห
+        System.out.println(str.lanbTest("best" , "เอง"));
 
 
     }
